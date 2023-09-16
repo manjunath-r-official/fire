@@ -36,3 +36,64 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* fire css starts*/
+
+.gradient-background {
+  /* Your gradient background styles */
+  background: linear-gradient(to bottom, #ff5733, #6b83f0);
+  min-height: 100vh; /* Adjust this to make the gradient cover the entire viewport */
+}
+
+
+
+/* Add this CSS to your project's global CSS or a CSS module */
+
+/* Navbar styles */
+.navbar {
+  background-color: #343a40; /* Navbar background color */
+}
+
+.navbar-brand {
+  font-size: 1.5rem; /* Logo or site name font size */
+  color: #ffffff; /* Logo or site name color */
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem; /* Navigation link font size */
+  color: #ffffff; /* Navigation link color */
+  margin: 0 15px; /* Space between navigation links */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Color on hover */
+}
+
+/* Mobile menu styles */
+.navbar-toggler-icon {
+  background-color: #ffffff; /* Mobile menu icon color */
+}
+
+/* Active link indicator */
+.nav-item.active .nav-link {
+  color: #007bff; /* Color of active link */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 767px) {
+  .navbar {
+    background-color: #343a40; /* Background color for mobile menu */
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 1rem; /* Font size for mobile menu links */
+    color: #ffffff; /* Color for mobile menu links */
+    padding: 10px 0; /* Vertical padding for mobile menu links */
+  }
+
+  .navbar-toggler-icon {
+    background-color: #ffffff; /* Color for mobile menu icon */
+  }
+}
