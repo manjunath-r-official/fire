@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 
 export default function Home() {
   return (
+    
     <Container
     className="gradient-background"
     fluid
@@ -12,7 +13,7 @@ export default function Home() {
     }}
   >
     {/* Your content goes here */}
-   
+    <NavBar/>
   </Container>
   )
 }
